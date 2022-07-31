@@ -1,0 +1,31 @@
+graph my_graph {
+	graph [bb="0,0,126,236.37",
+		bgcolor=lightyellow
+	];
+	node [label="\N"];
+	a	 [height=1.0607,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><FONT COLOR="red">0.19</FONT></TD></TR><TR><TD CELLPADDING="6" BGCOLOR="goldenrod2" PORT="p1">would</TD></TR></TABLE>>,
+		pos="63,198.18",
+		width=1.2374];
+	b	 [fontname=calibri,
+		height=0.5,
+		pos="63,91",
+		shape=box,
+		width=0.75,
+		xlabel=2,
+		xlp="32,116.5"];
+	a -- b	 [color=blue,
+		label=perc,
+		lp="75.5,134.5",
+		pos="63,159.8 63,142.56 63,122.93 63,109.25"];
+	c	 [height=0.5,
+		pos="27,18",
+		width=0.75];
+	b -- c	 [color=blue,
+		pos="54.285,72.813 48.542,61.486 41.062,46.733 35.386,35.54"];
+	d	 [height=0.5,
+		pos="99,18",
+		width=0.75];
+	b -- d	 [pos="71.715,72.813 77.458,61.486 84.938,46.733 90.614,35.54",
+		style=dotted];
+}

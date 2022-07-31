@@ -1,0 +1,56 @@
+// Test
+digraph maingraph {
+	node [fontname="Arial"]
+	rankdir=TB
+	//main node
+	"976389387" [label=<<table border='0' cellborder='0'><tr><td>Ernst &amp; Young AS</td></tr><tr><td>Dronning Eufemias gate 6 A, 0191 Oslo</td></tr><tr><td>976 389 387</td></tr></table>>, shape="box", color="red", style="filled", fillcolor="lightblue"]
+	{rank=min;"976389387"}
+
+	//step 1 nodes
+	"1" [label=<<table border='0' cellborder='0'><tr><td><b>Christin Erichsen Bøsterud</b></td></tr><tr><td>(f 1964)</td></tr></table>>, style="filled", fillcolor="#f0e3ff"]
+	"2" [label=<<table border='0' cellborder='0'><tr><td><b>Håvard Norstrøm</b></td></tr><tr><td>(f 1977)</td></tr></table>>, style="filled", fillcolor="#f0e3ff"]
+	"3" [label=<<table border='0' cellborder='0'><tr><td><b>Ingvill Andreassen Ervesvåg</b></td></tr><tr><td>(f 1987)</td></tr></table>>, style="filled", fillcolor="#f0e3ff"]
+	//step 1 roles
+	"1->976389387" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Daglig leder /</td></tr><tr><td>Styrets leder</td></tr></table>>]
+	"2->976389387" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	"3->976389387" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Varamedlem</td></tr></table>>]
+	//step 1 links
+	"976389387" -> "1->976389387" [arrowhead=none]
+	"1->976389387" -> "1"
+	"976389387" -> "2->976389387" [arrowhead=none]
+	"2->976389387" -> "2"
+	"976389387" -> "3->976389387" [arrowhead=none]
+	"3->976389387" -> "3"
+
+	//step 2 nodes
+	"996354083" [label=<<table border='0' cellborder='0'><tr><td>Christin Erichsen Bøsterud</td></tr><tr><td>Brødenveien 308, 1763 Halden</td></tr><tr><td>996 354 083</td></tr></table>>, shape="box", style="filled", fillcolor="lightblue"]
+	"984328796" [label=<<table border='0' cellborder='0'><tr><td>Ernst &amp; Young Advokatfirma AS</td></tr><tr><td>Dronning Eufemias gate 6 A, 0191 Oslo</td></tr><tr><td>984 328 796</td></tr></table>>, shape="box", style="filled", fillcolor="lightblue"]
+	"989966278" [label=<<table border='0' cellborder='0'><tr><td>C.E. Bøsterud AS</td></tr><tr><td>Brødenveien 308, 1763 Halden</td></tr><tr><td>989 966 278</td></tr></table>>, shape="box", style="filled", fillcolor="lightblue"]
+	"946823465" [label=<<table border='0' cellborder='0'><tr><td>Ernst &amp; Young Value Added Tax Services AS</td></tr><tr><td>Dronning Eufemias gate 6 A, 0191 Oslo</td></tr><tr><td>946 823 465</td></tr></table>>, shape="box", style="filled", fillcolor="lightblue"]
+	"979535058" [label=<<table border='0' cellborder='0'><tr><td>Bjørvika Konferansesenter AS</td></tr><tr><td>Dronning Eufemias g 6A, 0191 Oslo</td></tr><tr><td>979 535 058</td></tr></table>>, shape="box", style="filled", fillcolor="lightblue"]
+	"995042649" [label=<<table border='0' cellborder='0'><tr><td>Håvard Norstrøm</td></tr><tr><td>Hadelandsveien 573, 3520 Jevnaker</td></tr><tr><td>995 042 649</td></tr></table>>, shape="box", style="filled", fillcolor="lightblue"]
+	"985370125" [label=<<table border='0' cellborder='0'><tr><td>Norstrøm Thingelstad DA</td></tr><tr><td>Borgerhagen, 3514 Hønefoss</td></tr><tr><td>985 370 125</td></tr></table>>, shape="box", style="filled", fillcolor="lightblue"]
+	//step 2 roles
+	"1->996354083" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Innehaver</td></tr></table>>]
+	"1->984328796" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styrets leder</td></tr></table>>]
+	"1->989966278" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styrets leder</td></tr></table>>]
+	"1->946823465" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	"1->979535058" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	"2->995042649" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Innehaver</td></tr></table>>]
+	"2->985370125" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Deltager med delt ansvar</td></tr></table>>]
+	//step 2 links
+	"1" -> "1->996354083" [arrowhead=none]
+	"1->996354083" -> "996354083"
+	"1" -> "1->984328796" [arrowhead=none]
+	"1->984328796" -> "984328796"
+	"1" -> "1->989966278" [arrowhead=none]
+	"1->989966278" -> "989966278"
+	"1" -> "1->946823465" [arrowhead=none]
+	"1->946823465" -> "946823465"
+	"1" -> "1->979535058" [arrowhead=none]
+	"1->979535058" -> "979535058"
+	"2" -> "2->995042649" [arrowhead=none]
+	"2->995042649" -> "995042649"
+	"2" -> "2->985370125" [arrowhead=none]
+	"2->985370125" -> "985370125"
+}

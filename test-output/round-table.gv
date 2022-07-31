@@ -1,0 +1,11 @@
+// The Round Table
+digraph {
+	a [label=A fillcolor="#cccccc" pos="0,0!" style=filled]
+	b [label=B fillcolor="#1f77b4" pos="0,1!"]
+	c [label=C fillcolor="#2ca02c" pos="2,1!"]
+	d [label=D fillcolor="#ff7f0e" pos="2,0!"]
+	a -> b
+	a -> c
+	d -> a [label=perc]
+	a -> d [label=perc]
+}

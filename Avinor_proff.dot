@@ -1,0 +1,132 @@
+// Test
+digraph maingraph {
+	node [fontname="Arial"]
+	rankdir=TB
+
+	//main node
+	"985 198 292" [label=<<table border='0' cellborder='0'><tr><td>AVINOR AS</td></tr><tr><td>Dronning Eufemias gate 6 A, 0191 Oslo</td></tr><tr><td>985 198 292</td></tr></table>>, shape="box", color="red", style="filled", fillcolor="lightblue"]
+	//{rank=min;"985 198 292"}
+
+	//step 1 people
+	"1" [label=<<table border='0' cellborder='0'><tr><td><b>Abraham Foss</b></td></tr><tr><td>(f 1964)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"2" [label=<<table border='0' cellborder='0'><tr><td><b>Anne Carine Tanum</b></td></tr><tr><td>(f 1954)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"3" [label=<<table border='0' cellborder='0'><tr><td><b>Ola Henrik Strand</b></td></tr><tr><td>(f 1957)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"4" [label=<<table border='0' cellborder='0'><tr><td><b>Bjørn-Tore Mikkelsen</b></td></tr><tr><td>(f 1959)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"5" [label=<<table border='0' cellborder='0'><tr><td><b>Eli Skrøvset</b></td></tr><tr><td>(f 1965)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"6" [label=<<table border='0' cellborder='0'><tr><td><b>Heidi Anette Sørum</b></td></tr><tr><td>(f 1967)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"7" [label=<<table border='0' cellborder='0'><tr><td><b>Linda Ann Bernander Silseth</b></td></tr><tr><td>(f 1962)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"8" [label=<<table border='0' cellborder='0'><tr><td><b>Rolf Gunnar Roverud</b></td></tr><tr><td>(f 1958)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"9" [label=<<table border='0' cellborder='0'><tr><td><b>Olav Aadal</b></td></tr><tr><td>(f 1967)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"10" [label=<<table border='0' cellborder='0'><tr><td><b>Mike Antonsen</b></td></tr><tr><td>(f 1974)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"11" [label=<<table border='0' cellborder='0'><tr><td><b>Steven Feltham</b></td></tr><tr><td>(f 1973)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"12" [label=<<table border='0' cellborder='0'><tr><td><b>Christian Berge</b></td></tr><tr><td>(f 1978)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"13" [label=<<table border='0' cellborder='0'><tr><td><b>Linda Lill Salte</b></td></tr><tr><td>(f 1979)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	"14" [label=<<table border='0' cellborder='0'><tr><td><b>Mari Halvorsen Sundgot</b></td></tr><tr><td>(f 1988)</td></tr></table>>, shape=note, style="filled", fillcolor="lightyellow"]
+	//step 1 organizations
+	"972 417 904" [label=<<table border='0' cellborder='0'><tr><td><b>SAMFERDSELSDEPARTEMENTET</b></td></tr><tr><td>972 417 904</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"920 382 282" [label=<<table border='0' cellborder='0'><tr><td><b>Sjømatterminalen AS</b></td></tr><tr><td>920 382 282</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"916 851 227" [label=<<table border='0' cellborder='0'><tr><td><b>Svalbard Lufthavn AS</b></td></tr><tr><td>916 851 227</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"914 385 121" [label=<<table border='0' cellborder='0'><tr><td><b>Avinor Utvikling AS</b></td></tr><tr><td>914 385 121</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"913 074 270" [label=<<table border='0' cellborder='0'><tr><td><b>Avinor Flysikring AS</b></td></tr><tr><td>913 074 270</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"980 368 009" [label=<<table border='0' cellborder='0'><tr><td><b>Airport Coordination Norway AS</b></td></tr><tr><td>980 368 009</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"996 216 624" [label=<<table border='0' cellborder='0'><tr><td><b>Kraftforum Berlevåg AS</b></td></tr><tr><td>996 216 624</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"918 178 880" [label=<<table border='0' cellborder='0'><tr><td><b>Flyt Sola AS</b></td></tr><tr><td>918 178 880</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"923 453 032" [label=<<table border='0' cellborder='0'><tr><td><b>Start Norge AS</b></td></tr><tr><td>923 453 032</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	//step 1 people roles
+	"1->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Daglig leder</td></tr></table>>]
+	"2->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styrets leder</td></tr></table>>]
+	"3->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Nestleder</td></tr></table>>]
+	"4->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	"5->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	"6->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	"7->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	"8->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	"9->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	"10->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Varamedlem</td></tr></table>>]
+	"11->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Varamedlem</td></tr></table>>]
+	"12->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Varamedlem</td></tr></table>>]
+	"13->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Varamedlem</td></tr></table>>]
+	"14->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Varamedlem</td></tr></table>>]
+	//step 1 organization roles
+	"972 417 904->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Eier (100%)</td></tr></table>>]
+	"920 382 282->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Eier (100%)</td></tr></table>>]
+	"916 851 227->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Eier (100%)</td></tr></table>>]
+	"914 385 121->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Eier (100%)</td></tr></table>>]
+	"913 074 270->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Eier (100%)</td></tr></table>>]
+	"980 368 009->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Eier (50%)</td></tr></table>>]
+	"996 216 624->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Eier (8,108%)</td></tr></table>>]
+	"918 178 880->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Eier (4,167%)</td></tr></table>>]
+	"923 453 032->985 198 292" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Eier (0,2%)</td></tr></table>>]
+	//step 1 person links
+	"1->985 198 292" -> "985 198 292"
+	"1" -> "1->985 198 292" [arrowhead=none]
+	"2->985 198 292" -> "985 198 292" 
+	"2" -> "2->985 198 292" [arrowhead=none]
+	"3->985 198 292" -> "985 198 292"
+	"3" -> "3->985 198 292" [arrowhead=none]
+	"4->985 198 292" -> "985 198 292"
+	"4" -> "4->985 198 292" [arrowhead=none]
+	"5->985 198 292" -> "985 198 292"
+	"5" -> "5->985 198 292" [arrowhead=none]
+	"6->985 198 292" -> "985 198 292"
+	"6" -> "6->985 198 292" [arrowhead=none]
+	"7->985 198 292" -> "985 198 292"
+	"7" -> "7->985 198 292" [arrowhead=none]
+	"8->985 198 292" -> "985 198 292"
+	"8" -> "8->985 198 292" [arrowhead=none]
+	"9->985 198 292" -> "985 198 292"
+	"9" -> "9->985 198 292" [arrowhead=none]
+	"10->985 198 292" -> "985 198 292"
+	"10" -> "10->985 198 292" [arrowhead=none]
+	"11->985 198 292" -> "985 198 292"
+	"11" -> "11->985 198 292" [arrowhead=none]
+	"12->985 198 292" -> "985 198 292"
+	"12" -> "12->985 198 292" [arrowhead=none]
+	"13->985 198 292" -> "985 198 292"
+	"13" -> "13->985 198 292" [arrowhead=none]
+	"14->985 198 292" -> "985 198 292"
+	"14" -> "14->985 198 292" [arrowhead=none]
+	//step 1 organization links
+	"972 417 904" -> "972 417 904->985 198 292" [arrowhead=none]
+	"972 417 904->985 198 292" -> "985 198 292"
+	"985 198 292" -> "920 382 282->985 198 292" [arrowhead=none]
+	"920 382 282->985 198 292" -> "920 382 282"
+	"985 198 292" -> "916 851 227->985 198 292" [arrowhead=none]
+	"916 851 227->985 198 292" -> "916 851 227"
+	"985 198 292" -> "914 385 121->985 198 292" [arrowhead=none]
+	"914 385 121->985 198 292" -> "914 385 121"
+	"985 198 292" -> "913 074 270->985 198 292" [arrowhead=none]
+	"913 074 270->985 198 292" -> "913 074 270"
+	"985 198 292" -> "980 368 009->985 198 292" [arrowhead=none]
+	"980 368 009->985 198 292" -> "980 368 009"
+	"985 198 292" -> "996 216 624->985 198 292" [arrowhead=none]
+	"996 216 624->985 198 292" -> "996 216 624"
+	"985 198 292" -> "918 178 880->985 198 292" [arrowhead=none]
+	"918 178 880->985 198 292" -> "918 178 880"
+	"985 198 292" -> "923 453 032->985 198 292" [arrowhead=none]
+	"923 453 032->985 198 292" -> "923 453 032"
+
+	//step 2 organizations
+	"976 253 388" [label=<<table border='0' cellborder='0'><tr><td><b>Abraham Foss</b></td></tr><tr><td>976 253 388</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"916 491 433" [label=<<table border='0' cellborder='0'><tr><td><b>GÅRDSBRUKENE TUFT OG GULLI DA</b></td></tr><tr><td>916 491 433</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"913 074 270" [label=<<table border='0' cellborder='0'><tr><td><b>AVINOR FLYSIKRING AS</b></td></tr><tr><td>913 074 270</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"925 986 313" [label=<<table border='0' cellborder='0'><tr><td><b>JASPEKE AS</b></td></tr><tr><td>925 986 313</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	"988 692 166" [label=<<table border='0' cellborder='0'><tr><td><b>STONEART AS</b></td></tr><tr><td>988 692 166</td></tr></table>>, shape=tab, style="filled", fillcolor="lightblue"]
+	//step 2 organization roles
+	"1->976 253 388" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Innehaver</td></tr></table>>]
+	"1->916 491 433" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Kontaktperson</td></tr><tr><td>Deltaker med delt ansvar</td></tr></table>>]
+	"1->913 074 270" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styrets leder</td></tr></table>>]
+	"1->925 986 313" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styrets leder</td></tr></table>>]
+	"1->988 692 166" [shape=plaintext, label=<<table border='0' cellborder='0'><tr><td>Styremedlem</td></tr></table>>]
+	//step 2 organization links
+	"1->976 253 388" -> "976 253 388"
+	"1" -> "1->976 253 388" [arrowhead=none]
+	"1->916 491 433" -> "916 491 433"
+	"1" -> "1->916 491 433" [arrowhead=none]
+	"1->913 074 270" -> "913 074 270"
+	"1" -> "1->913 074 270" [arrowhead=none]
+	"1->925 986 313" -> "925 986 313"
+	"1" -> "1->925 986 313" [arrowhead=none]
+	"1->988 692 166" -> "988 692 166"
+	"1" -> "1->988 692 166" [arrowhead=none]
+}
