@@ -1,60 +1,146 @@
 // Network-chart
 digraph {
-	0 [label="AVINOR AS" fillcolor=lightblue shape=box style=filled]
-	1 [label="Abraham Foss" fillcolor=lightyellow shape=box style=filled]
-	2 [label="Anne Carine Tanum" fillcolor=lightyellow shape=box style=filled]
-	3 [label="Ola Henrik Strand" fillcolor=lightyellow shape=box style=filled]
-	4 [label="Bjørn-Tore Mikkelsen" fillcolor=lightyellow shape=box style=filled]
-	5 [label="Eli Skrøvset" fillcolor=lightyellow shape=box style=filled]
-	6 [label="Heidi Anette Sørum" fillcolor=lightyellow shape=box style=filled]
-	7 [label="Linda Ann Bernander Silseth" fillcolor=lightyellow shape=box style=filled]
-	8 [label="Rolf Gunnar Roverud" fillcolor=lightyellow shape=box style=filled]
-	9 [label="Olav Aadal" fillcolor=lightyellow shape=box style=filled]
-	10 [label="Mike Antonsen" fillcolor=lightyellow shape=box style=filled]
-	11 [label="Steven Feltham" fillcolor=lightyellow shape=box style=filled]
-	12 [label="Christian Berge" fillcolor=lightyellow shape=box style=filled]
-	13 [label="Linda Lill Salte" fillcolor=lightyellow shape=box style=filled]
-	14 [label="Mari Halvorsen Sundgot" fillcolor=lightyellow shape=box style=filled]
-	15 [label=SAMFERDSELSDEPARTEMENTET fillcolor=lightblue shape=box style=filled]
-	16 [label="Sjømatterminalen AS" fillcolor=lightblue shape=box style=filled]
-	17 [label="Svalbard Lufthavn AS" fillcolor=lightblue shape=box style=filled]
-	18 [label="Avinor Utvikling AS" fillcolor=lightblue shape=box style=filled]
-	19 [label="Avinor Flysikring AS" fillcolor=lightblue shape=box style=filled]
-	20 [label="Airport Coordination Norway AS" fillcolor=lightblue shape=box style=filled]
-	21 [label="Kraftforum Berlevåg AS" fillcolor=lightblue shape=box style=filled]
-	22 [label="Flyt Sola AS" fillcolor=lightblue shape=box style=filled]
-	23 [label="Start Norge AS" fillcolor=lightblue shape=box style=filled]
-	24 [label="GÅRDSBRUKENE TUFT OG GULLI DA" fillcolor=lightblue shape=box style=filled]
-	25 [label="JASPEKE AS" fillcolor=lightblue shape=box style=filled]
-	26 [label="STONEART AS" fillcolor=lightblue shape=box style=filled]
-	27 [label="Abraham Foss" fillcolor=lightblue shape=box style=filled]
-	1 -> 0 [label="Daglig leder"]
-	2 -> 0 [label="Styrets leder"]
-	3 -> 0 [label=Nestleder]
-	4 -> 0 [label=Styremedlem]
-	5 -> 0 [label=Styremedlem]
-	6 -> 0 [label=Styremedlem]
-	7 -> 0 [label=Styremedlem]
-	8 -> 0 [label=Styremedlem]
-	9 -> 0 [label=Styremedlem]
-	10 -> 0 [label=Varamedlem]
-	11 -> 0 [label=Varamedlem]
-	12 -> 0 [label=Varamedlem]
-	13 -> 0 [label=Varamedlem]
-	14 -> 0 [label=Varamedlem]
-	15 -> 0 [label="Eier (100%)"]
-	0 -> 16 [label="Eier (100%)"]
-	0 -> 17 [label="Eier (100%)"]
-	0 -> 18 [label="Eier (100%)"]
-	0 -> 19 [label="Eier (100%)"]
-	0 -> 20 [label="Eier (50%)"]
-	0 -> 21 [label="Eier (8,108%)"]
-	0 -> 22 [label="Eier (4,167%)"]
-	0 -> 23 [label="Eier (0,2%)"]
-	1 -> 24 [label=Kontaktperson]
-	1 -> 24 [label="Deltaker med delt ansvar"]
-	1 -> 25 [label="Styrets leder"]
-	1 -> 26 [label=Styremedlem]
-	1 -> 27 [label=Innehaver]
-	1 -> 19 [label="Styrets leder"]
+	0 [label="AVINOR AS
+985 198 292" fillcolor=lightblue shape=box style=filled]
+	1 [label="Abraham Foss
+(f 1964)" fillcolor=lightyellow shape=box style=filled]
+	2 [label="Anne Carine Tanum
+(f 1954)" fillcolor=lightyellow shape=box style=filled]
+	3 [label="Ola Henrik Strand
+(f 1957)" fillcolor=lightyellow shape=box style=filled]
+	4 [label="Bjørn-Tore Mikkelsen
+(f 1959)" fillcolor=lightyellow shape=box style=filled]
+	5 [label="Eli Skrøvset
+(f 1965)" fillcolor=lightyellow shape=box style=filled]
+	6 [label="Heidi Anette Sørum
+(f 1962)" fillcolor=lightyellow shape=box style=filled]
+	7 [label="Linda Ann Bernander Silseth
+(f 1958)" fillcolor=lightyellow shape=box style=filled]
+	8 [label="Rolf Gunnar Roverud
+(f 1967)" fillcolor=lightyellow shape=box style=filled]
+	9 [label="Olav Aadal
+(f 1974)" fillcolor=lightyellow shape=box style=filled]
+	10 [label="Mike Antonsen
+(f 1967)" fillcolor=lightyellow shape=box style=filled]
+	11 [label="Steven Feltham
+(f 1973)" fillcolor=lightyellow shape=box style=filled]
+	12 [label="Christian Berge
+(f 1978)" fillcolor=lightyellow shape=box style=filled]
+	13 [label="Linda Lill Salte
+(f 1979)" fillcolor=lightyellow shape=box style=filled]
+	14 [label="Mari Halvorsen Sundgot
+(f 1988)" fillcolor=lightyellow shape=box style=filled]
+	15 [label="SAMFERDSELSDEPARTEMENTET
+972 417 904" fillcolor=lightblue shape=box style=filled]
+	16 [label="Sjømatterminalen AS
+920 382 282" fillcolor=lightblue shape=box style=filled]
+	17 [label="Svalbard Lufthavn AS
+916 851 227" fillcolor=lightblue shape=box style=filled]
+	18 [label="Avinor Utvikling AS
+914 385 121" fillcolor=lightblue shape=box style=filled]
+	19 [label="Avinor Flysikring AS
+913 074 270" fillcolor=lightblue shape=box style=filled]
+	20 [label="Airport Coordination Norway AS
+980 368 009" fillcolor=lightblue shape=box style=filled]
+	21 [label="Kraftforum Berlevåg AS
+996 216 624" fillcolor=lightblue shape=box style=filled]
+	22 [label="Flyt Sola AS
+918 178 880" fillcolor=lightblue shape=box style=filled]
+	23 [label="Start Norge AS
+923 453 032" fillcolor=lightblue shape=box style=filled]
+	24 [label="GÅRDSBRUKENE TUFT OG GULLI DA
+916 491 433" fillcolor=lightblue shape=box style=filled]
+	25 [label="JASPEKE AS
+925 986 313" fillcolor=lightblue shape=box style=filled]
+	26 [label="STONEART AS
+988 692 166" fillcolor=lightblue shape=box style=filled]
+	27 [label="Abraham Foss
+976 253 388" fillcolor=lightblue shape=box style=filled]
+	"1-0-Daglig leder" [label="Daglig leder" color=orange shape=ellipse]
+	1 -> "1-0-Daglig leder" [arrowhead=none]
+	"1-0-Daglig leder" -> 0
+	"2-0-Styrets leder" [label="Styrets leder" color=orange shape=ellipse]
+	2 -> "2-0-Styrets leder" [arrowhead=none]
+	"2-0-Styrets leder" -> 0
+	"3-0-Nestleder" [label=Nestleder color=orange shape=ellipse]
+	3 -> "3-0-Nestleder" [arrowhead=none]
+	"3-0-Nestleder" -> 0
+	"4-0-Styremedlem" [label=Styremedlem color=orange shape=ellipse]
+	4 -> "4-0-Styremedlem" [arrowhead=none]
+	"4-0-Styremedlem" -> 0
+	"5-0-Styremedlem" [label=Styremedlem color=orange shape=ellipse]
+	5 -> "5-0-Styremedlem" [arrowhead=none]
+	"5-0-Styremedlem" -> 0
+	"6-0-Styremedlem" [label=Styremedlem color=orange shape=ellipse]
+	6 -> "6-0-Styremedlem" [arrowhead=none]
+	"6-0-Styremedlem" -> 0
+	"7-0-Styremedlem" [label=Styremedlem color=orange shape=ellipse]
+	7 -> "7-0-Styremedlem" [arrowhead=none]
+	"7-0-Styremedlem" -> 0
+	"8-0-Styremedlem" [label=Styremedlem color=orange shape=ellipse]
+	8 -> "8-0-Styremedlem" [arrowhead=none]
+	"8-0-Styremedlem" -> 0
+	"9-0-Styremedlem" [label=Styremedlem color=orange shape=ellipse]
+	9 -> "9-0-Styremedlem" [arrowhead=none]
+	"9-0-Styremedlem" -> 0
+	"10-0-Varamedlem" [label=Varamedlem color=orange shape=ellipse]
+	10 -> "10-0-Varamedlem" [arrowhead=none]
+	"10-0-Varamedlem" -> 0
+	"11-0-Varamedlem" [label=Varamedlem color=orange shape=ellipse]
+	11 -> "11-0-Varamedlem" [arrowhead=none]
+	"11-0-Varamedlem" -> 0
+	"12-0-Varamedlem" [label=Varamedlem color=orange shape=ellipse]
+	12 -> "12-0-Varamedlem" [arrowhead=none]
+	"12-0-Varamedlem" -> 0
+	"13-0-Varamedlem" [label=Varamedlem color=orange shape=ellipse]
+	13 -> "13-0-Varamedlem" [arrowhead=none]
+	"13-0-Varamedlem" -> 0
+	"14-0-Varamedlem" [label=Varamedlem color=orange shape=ellipse]
+	14 -> "14-0-Varamedlem" [arrowhead=none]
+	"14-0-Varamedlem" -> 0
+	"15-0-Eier (100%)" [label="Eier (100%)" color=red shape=ellipse]
+	15 -> "15-0-Eier (100%)" [arrowhead=none]
+	"15-0-Eier (100%)" -> 0
+	"0-16-Eier (100%)" [label="Eier (100%)" color=red shape=ellipse]
+	0 -> "0-16-Eier (100%)" [arrowhead=none]
+	"0-16-Eier (100%)" -> 16
+	"0-17-Eier (100%)" [label="Eier (100%)" color=red shape=ellipse]
+	0 -> "0-17-Eier (100%)" [arrowhead=none]
+	"0-17-Eier (100%)" -> 17
+	"0-18-Eier (100%)" [label="Eier (100%)" color=red shape=ellipse]
+	0 -> "0-18-Eier (100%)" [arrowhead=none]
+	"0-18-Eier (100%)" -> 18
+	"0-19-Eier (100%)" [label="Eier (100%)" color=red shape=ellipse]
+	0 -> "0-19-Eier (100%)" [arrowhead=none]
+	"0-19-Eier (100%)" -> 19
+	"0-20-Eier (50%)" [label="Eier (50%)" color=red shape=ellipse]
+	0 -> "0-20-Eier (50%)" [arrowhead=none]
+	"0-20-Eier (50%)" -> 20
+	"0-21-Eier (8,108%)" [label="Eier (8,108%)" color=red shape=ellipse]
+	0 -> "0-21-Eier (8,108%)" [arrowhead=none]
+	"0-21-Eier (8,108%)" -> 21
+	"0-22-Eier (4,167%)" [label="Eier (4,167%)" color=red shape=ellipse]
+	0 -> "0-22-Eier (4,167%)" [arrowhead=none]
+	"0-22-Eier (4,167%)" -> 22
+	"0-23-Eier (0,2%)" [label="Eier (0,2%)" color=red shape=ellipse]
+	0 -> "0-23-Eier (0,2%)" [arrowhead=none]
+	"0-23-Eier (0,2%)" -> 23
+	"1-24-Kontaktperson" [label=Kontaktperson color=orange shape=ellipse]
+	1 -> "1-24-Kontaktperson" [arrowhead=none]
+	"1-24-Kontaktperson" -> 24
+	"1-24-Deltaker med delt ansvar" [label="Deltaker med delt ansvar" color=orange shape=ellipse]
+	1 -> "1-24-Deltaker med delt ansvar" [arrowhead=none]
+	"1-24-Deltaker med delt ansvar" -> 24
+	"1-25-Styrets leder" [label="Styrets leder" color=orange shape=ellipse]
+	1 -> "1-25-Styrets leder" [arrowhead=none]
+	"1-25-Styrets leder" -> 25
+	"1-26-Styremedlem" [label=Styremedlem color=orange shape=ellipse]
+	1 -> "1-26-Styremedlem" [arrowhead=none]
+	"1-26-Styremedlem" -> 26
+	"1-27-Innehaver" [label=Innehaver color=orange shape=ellipse]
+	1 -> "1-27-Innehaver" [arrowhead=none]
+	"1-27-Innehaver" -> 27
+	"1-19-Styrets leder" [label="Styrets leder" color=orange shape=ellipse]
+	1 -> "1-19-Styrets leder" [arrowhead=none]
+	"1-19-Styrets leder" -> 19
 }
